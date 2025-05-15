@@ -1,0 +1,742 @@
+[
+    {
+      "elapsedTimes": [
+        {
+          "layerName": "Data",
+          "methodName": "StationRead",
+          "timeElapsed": "00:00:00.01",
+          "timeElapsedMilliseconds": 14
+        },
+        {
+          "layerName": "Logic",
+          "methodName": "RutesProcess",
+          "timeElapsed": "00:00:00.02",
+          "timeElapsedMilliseconds": 21
+        },
+        {
+          "layerName": "Logic",
+          "methodName": "StationRead",
+          "timeElapsed": "00:00:00.03",
+          "timeElapsedMilliseconds": 36
+        },
+        {
+          "layerName": "WebService",
+          "methodName": "GetStation",
+          "timeElapsed": "00:00:00.03",
+          "timeElapsedMilliseconds": 36
+        }
+      ],
+      "exclusiveCarrier": "",
+      "stationCode": "ACA",
+      "stationLocalTime": "/Date(-62135575200000-0600)/",
+      "stationLocalTimeString": null,
+      "stationName": "Acapulco",
+      "ArrivalTerminal": "",
+      "Terminal": "Unique Terminal",
+      "alias": "acapulquito,La quebrada,papagayos,ACA,diamante,acapulco,guerrero,Acapulco,Playa,Arena,Beach,Outdoors,Naturaleza,Night life,Vida nocturna",
+      "bestDayID": "1",
+      "country": {
+        "countryCode": "MX",
+        "countryName": "MEXICO",
+        "elapsedTimes": null
+      },
+      "globalPosition": {
+        "coordTextX": 370,
+        "coordTextY": 678,
+        "coordX": 400,
+        "coordY": 659,
+        "globalPositionID": 0,
+        "stationID": 0,
+        "textColor": "9d3393"
+      },
+      "isNew": false,
+      "isPrincipal": false,
+      "mac": {
+        "elapsedTimes": null,
+        "macBestDayID": null,
+        "macCode": "",
+        "macName": null
+      },
+      "route": {
+        "connection": [
+          {
+            "arrivalStation": "AGU",
+            "routeName": "ACAAGU",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "BJX",
+            "routeName": "ACABJX",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "BOG",
+            "routeName": "ACABOG",
+            "connectionStation": "MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "CEN",
+            "routeName": "ACACEN",
+            "connectionStation": "GDL,TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "CJS",
+            "routeName": "ACACJS",
+            "connectionStation": "MEX,TIJ,GDL",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "CLQ",
+            "routeName": "ACACLQ",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "CUL",
+            "routeName": "ACACUL",
+            "connectionStation": "GDL,MEX,TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "CUN",
+            "routeName": "ACACUN",
+            "connectionStation": "TIJ,GDL,MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "CUU",
+            "routeName": "ACACUU",
+            "connectionStation": "TIJ,GDL,MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "CZM",
+            "routeName": "ACACZM",
+            "connectionStation": "MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "DFW",
+            "routeName": "ACADFW",
+            "connectionStation": "GDL,MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "DGO",
+            "routeName": "ACADGO",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "EWR",
+            "routeName": "ACAEWR",
+            "connectionStation": "GDL",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "FAT",
+            "routeName": "ACAFAT",
+            "connectionStation": "GDL",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "GDL",
+            "routeName": "ACAGDL",
+            "connectionStation": "MEX,TIJ",
+            "routeDirect": 1
+          },
+          {
+            "arrivalStation": "GUA",
+            "routeName": "ACAGUA",
+            "connectionStation": "MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "HMO",
+            "routeName": "ACAHMO",
+            "connectionStation": "GDL,TIJ,MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "HUX",
+            "routeName": "ACAHUX",
+            "connectionStation": "MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "IAH",
+            "routeName": "ACAIAH",
+            "connectionStation": "MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "JFK",
+            "routeName": "ACAJFK",
+            "connectionStation": "GDL",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "LAP",
+            "routeName": "ACALAP",
+            "connectionStation": "TIJ,MEX,GDL",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "LAS",
+            "routeName": "ACALAS",
+            "connectionStation": "GDL,MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "LAX",
+            "routeName": "ACALAX",
+            "connectionStation": "MEX,GDL",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "LIM",
+            "routeName": "ACALIM",
+            "connectionStation": "MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "LMM",
+            "routeName": "ACALMM",
+            "connectionStation": "TIJ,GDL,MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "LTO",
+            "routeName": "ACALTO",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "MCO",
+            "routeName": "ACAMCO",
+            "connectionStation": "MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "MEX",
+            "routeName": "ACAMEX",
+            "connectionStation": "TIJ,GDL",
+            "routeDirect": 1
+          },
+          {
+            "arrivalStation": "MID",
+            "routeName": "ACAMID",
+            "connectionStation": "GDL,MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "MLM",
+            "routeName": "ACAMLM",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "MTY",
+            "routeName": "ACAMTY",
+            "connectionStation": "GDL,TIJ,MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "MXL",
+            "routeName": "ACAMXL",
+            "connectionStation": "GDL,MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "MZT",
+            "routeName": "ACAMZT",
+            "connectionStation": "MEX,TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "NLU",
+            "routeName": "ACANLU",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "OAK",
+            "routeName": "ACAOAK",
+            "connectionStation": "GDL,MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "OAX",
+            "routeName": "ACAOAX",
+            "connectionStation": "MEX,TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "ONT",
+            "routeName": "ACAONT",
+            "connectionStation": "GDL",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "ORD",
+            "routeName": "ACAORD",
+            "connectionStation": "GDL,MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "PBC",
+            "routeName": "ACAPBC",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "PDX",
+            "routeName": "ACAPDX",
+            "connectionStation": "GDL",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "PHX",
+            "routeName": "ACAPHX",
+            "connectionStation": "GDL",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "PVR",
+            "routeName": "ACAPVR",
+            "connectionStation": "TIJ,MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "PXM",
+            "routeName": "ACAPXM",
+            "connectionStation": "MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "QRO",
+            "routeName": "ACAQRO",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "SAT",
+            "routeName": "ACASAT",
+            "connectionStation": "GDL",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "SEA",
+            "routeName": "ACASEA",
+            "connectionStation": "GDL",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "SJD",
+            "routeName": "ACASJD",
+            "connectionStation": "MEX,TIJ,GDL",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "SJO",
+            "routeName": "ACASJO",
+            "connectionStation": "GDL,MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "SLP",
+            "routeName": "ACASLP",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "SMF",
+            "routeName": "ACASMF",
+            "connectionStation": "MEX,GDL",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "TAP",
+            "routeName": "ACATAP",
+            "connectionStation": "TIJ,GDL,MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "TGZ",
+            "routeName": "ACATGZ",
+            "connectionStation": "GDL,TIJ,MEX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "TIJ",
+            "routeName": "ACATIJ",
+            "connectionStation": "GDL,MEX",
+            "routeDirect": 1
+          },
+          {
+            "arrivalStation": "TJX",
+            "routeName": "ACATJX",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "TPQ",
+            "routeName": "ACATPQ",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "TRC",
+            "routeName": "ACATRC",
+            "connectionStation": "TIJ,GDL",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "VER",
+            "routeName": "ACAVER",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "ZIH",
+            "routeName": "ACAZIH",
+            "connectionStation": "MEX,TIJ",
+            "routeDirect": 0
+          }
+        ],
+        "direct": [
+          {
+            "arrivalStation": "GDL",
+            "routeName": "ACAGDL"
+          },
+          {
+            "arrivalStation": "MEX",
+            "routeName": "ACAMEX"
+          },
+          {
+            "arrivalStation": "TIJ",
+            "routeName": "ACATIJ"
+          }
+        ]
+      }
+    },
+    {
+      "elapsedTimes": null,
+      "exclusiveCarrier": "",
+      "stationCode": "AGU",
+      "stationLocalTime": "/Date(-62135575200000-0600)/",
+      "stationLocalTimeString": null,
+      "stationName": "Aguascalientes",
+      "ArrivalTerminal": "",
+      "Terminal": "Unique Terminal",
+      "alias": "AGU,Aguascalientes,hidrocalidos,Outdoors,Naturaleza",
+      "bestDayID": "49",
+      "country": {
+        "countryCode": "MX",
+        "countryName": "MEXICO",
+        "elapsedTimes": null
+      },
+      "globalPosition": {
+        "coordTextX": 357,
+        "coordTextY": 560,
+        "coordX": 347,
+        "coordY": 565,
+        "globalPositionID": 0,
+        "stationID": 0,
+        "textColor": "d7a6cd"
+      },
+      "isNew": false,
+      "isPrincipal": false,
+      "mac": {
+        "elapsedTimes": null,
+        "macBestDayID": null,
+        "macCode": "",
+        "macName": null
+      },
+      "route": {
+        "connection": [
+          {
+            "arrivalStation": "ACA",
+            "routeName": "AGUACA",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "BJX",
+            "routeName": "AGUBJX",
+            "connectionStation": "CUN,TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "CEN",
+            "routeName": "AGUCEN",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "CJS",
+            "routeName": "AGUCJS",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "CLQ",
+            "routeName": "AGUCLQ",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "CUL",
+            "routeName": "AGUCUL",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "CUN",
+            "routeName": "AGUCUN",
+            "connectionStation": "TIJ",
+            "routeDirect": 1
+          },
+          {
+            "arrivalStation": "CUU",
+            "routeName": "AGUCUU",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "DEN",
+            "routeName": "AGUDEN",
+            "connectionStation": "LAX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "DGO",
+            "routeName": "AGUDGO",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "GDL",
+            "routeName": "AGUGDL",
+            "connectionStation": "CUN,TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "HMO",
+            "routeName": "AGUHMO",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "LAP",
+            "routeName": "AGULAP",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "LMM",
+            "routeName": "AGULMM",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "LTO",
+            "routeName": "AGULTO",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "MEX",
+            "routeName": "AGUMEX",
+            "connectionStation": "CUN,TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "MLM",
+            "routeName": "AGUMLM",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "MTY",
+            "routeName": "AGUMTY",
+            "connectionStation": "TIJ,CUN",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "MZT",
+            "routeName": "AGUMZT",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "OAX",
+            "routeName": "AGUOAX",
+            "connectionStation": "TIJ,CUN",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "PBC",
+            "routeName": "AGUPBC",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "PHX",
+            "routeName": "AGUPHX",
+            "connectionStation": "LAX",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "PVR",
+            "routeName": "AGUPVR",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "QRO",
+            "routeName": "AGUQRO",
+            "connectionStation": "CUN,TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "SJD",
+            "routeName": "AGUSJD",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "SLP",
+            "routeName": "AGUSLP",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "TAP",
+            "routeName": "AGUTAP",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "TGZ",
+            "routeName": "AGUTGZ",
+            "connectionStation": "CUN,TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "TIJ",
+            "routeName": "AGUTIJ",
+            "connectionStation": "CUN",
+            "routeDirect": 1
+          },
+          {
+            "arrivalStation": "TJX",
+            "routeName": "AGUTJX",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "TLC",
+            "routeName": "AGUTLC",
+            "connectionStation": "TIJ,CUN",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "TPQ",
+            "routeName": "AGUTPQ",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "TRC",
+            "routeName": "AGUTRC",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "UPN",
+            "routeName": "AGUUPN",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "VER",
+            "routeName": "AGUVER",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "ZCL",
+            "routeName": "AGUZCL",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          },
+          {
+            "arrivalStation": "ZIH",
+            "routeName": "AGUZIH",
+            "connectionStation": "TIJ",
+            "routeDirect": 0
+          }
+        ],
+        "direct": [
+          {
+            "arrivalStation": "CUN",
+            "routeName": "AGUCUN"
+          },
+          {
+            "arrivalStation": "LAX",
+            "routeName": "AGULAX"
+          },
+          {
+            "arrivalStation": "MDW",
+            "routeName": "AGUMDW"
+          },
+          {
+            "arrivalStation": "TIJ",
+            "routeName": "AGUTIJ"
+          }
+        ]
+      }
+    },
+    {
+      "elapsedTimes": null,
+      "exclusiveCarrier": "F9",
+      "stationCode": "ALB",
+      "stationLocalTime": "/Date(-62135575200000-0600)/",
+      "stationLocalTimeString": null,
+      "stationName": "Albany",
+      "ArrivalTerminal": "Terminal number one",
+      "Terminal": "Terminal number one",
+      "alias": "Albany,New,York",
+      "bestDayID": "",
+      "country": {
+        "countryCode": "US",
+        "countryName": "UNITED STATES OF AMERICA",
+        "elapsedTimes": null
+      },
+      "globalPosition": {
+        "coordTextX": 790,
+        "coordTextY": 99,
+        "coordX": 790,
+        "coordY": 99,
+        "globalPositionID": 0,
+        "stationID": 0,
+        "textColor": "000000"
+      },
+      "isNew": false,
+      "isPrincipal": false,
+      "mac": {
+        "elapsedTimes": null,
+        "macBestDayID": null,
+        "macCode": "",
+        "macName": null
+      },
+      "route": {
+        "connection": null,
+        "direct": null
+      }
+    }]
